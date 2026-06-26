@@ -11,9 +11,9 @@ class Herobi < Formula
 
   def install
     bin.install "herobi"
-    bash_completion.install "completions/bash/herobi"
-    zsh_completion.install "completions/zsh/_herobi"
-    fish_completion.install "completions/fish/herobi"
+    #bash_completion.install "completions/bash/herobi"
+    #zsh_completion.install "completions/zsh/_herobi"
+    #fish_completion.install "completions/fish/herobi"
   end
 
   test do
