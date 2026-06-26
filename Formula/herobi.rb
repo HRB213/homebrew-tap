@@ -6,7 +6,7 @@ class Herobi < Formula
   version VERSION
   license "MIT"
 
-  url "https://github.com/HRB213/herobi/releases/download/v#{VERSION}/herobi-#{VERSION}_arm64_darwin.tar.gz"
+  url "https://github.com/HRB213/herobi/releases/download/v0.1.0/herobi-0.1.0-arm64-darwin.tar.gz"
   sha256 "9ccf88188032718c10ca3db3e6a8cf1008f640893f28422b30ddfab3db953010"
 
   def install
