@@ -1,4 +1,4 @@
-VERSION="0.1.0"
+VERSION="0.2.0"
 
 class Herobi < Formula
   desc "Simple CLI tool to list files and directories"
@@ -6,8 +6,8 @@ class Herobi < Formula
   version VERSION
   license "MIT"
 
-  url "https://github.com/HRB213/herobi/releases/download/v0.1.0/herobi-0.1.0-arm64-darwin.tar.gz"
-  sha256 "9ccf88188032718c10ca3db3e6a8cf1008f640893f28422b30ddfab3db953010"
+  url "https://github.com/HRB213/herobi/releases/download/v0.2.0/herobi-0.2.0-arm64-darwin.tar.gz"
+  sha256 "2cf5d055ac8b328ade54b40cfce5642c85f6286c1b0b666b77d640da9ec0303f"
 
   def install
     bin.install "herobi"
